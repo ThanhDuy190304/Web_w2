@@ -3,7 +3,7 @@
       { "src": "3D/default.html", "use": "@vercel/static" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/3D/default.html" }
+      { "src": "/(.*)", "dest": "3D/default.html" }
     ]
   }
   
