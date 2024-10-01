@@ -1,10 +1,7 @@
 {
-    "source": "3D",
-    "builds": [
-      { "src": "3D/default.html", "use": "@vercel/static" }
-    ],
+  "version": 2,
     "routes": [
-      { "src": "/(.*)", "dest": "/3D/$1" }
+      { "src": "/", "dest": "/default.html" }
     ]
   }
   
