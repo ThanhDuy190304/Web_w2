@@ -1,6 +1,9 @@
 {
-    "version": 2,
-    "rewrites": [
-        { "source": "/(.*)", "destination": "3D/" }
+    "builds": [
+      { "src": "3D/default.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/3D/default.html" }
     ]
-}
+  }
+  
