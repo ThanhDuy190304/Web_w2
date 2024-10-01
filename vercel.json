@@ -1,5 +1,5 @@
 {
     "routes": [
-        { "source": "/", "destination": "/default.html" }
+        { "source": "/", "destination": "/" }
     ]
 }
