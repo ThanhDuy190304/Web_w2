@@ -2,6 +2,6 @@
     "version": 2,
     "trailingSlash": true,
     "rewrites": [
-        { "source": "/", "destination": "3D/default.html" }
+        { "source": "/", "destination": "./default.html" }
     ]
 }
